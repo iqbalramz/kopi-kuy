@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/produk.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
+        /* tulis kode CSS internal di bawah sini */
+    </style>
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+
+    <nav class="navbar sticky-top navbar-dark bg-success navbar-expand-lg bisadicopy">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo/logo_kuy.png" height="40" alt="image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+                aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav11">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                </ul>
+                <a target="_blank" class="btn btn-success ms-md-3"
+                    href="https://wa.me/6281290465033?text=Halo saya mau pesan kopi">
+                    <i class="bi bi-whatsapp"></i> Chat
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="riki-block produk text-center my-5 py-5">
+        <div class="container">
+            <h1>Pilih Produk Anda</h1>
+            <p class="fs-4">Kualitas terbaik biji kopi pilihan fresh langsung dari petani</p>
+            <hr class="border border-success border-3 opacity-75">
+
+            <!-- Ini Untuk Select -->
+            <div class="form-floating">
+                <select class="form-select" id="select_produk" aria-label="Floating label select example">
+                    <option selected value="semua">semua</option>
+                    <option value="Makanan">Makanan</option>
+                    <option value="Minuman">Minuman</option>
+                    <option value="Snack">Snack</option>
+                </select>
+                <label for="select_produk">Silakan Pilih</label>
+            </div>
+
+            <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+
+                <!--Awal Copy Produk -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    250 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    35.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    100 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    30000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Susu</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    250 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    25.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_latte.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    100 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    30.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">
+                                <i class="bi bi-cart4"></i> Beli
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Akhir Copy Produk -->
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="riki-block footer-small py-4 bg-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    &copy; 2024 Kopi Kuy . All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/produk.js"></script>
+    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+
+        var semua_produk = {}
+
+        console.info("Data semua produk", semua_produk)
+
+        var produk_pilihan = []
+        select_produk.onchange = function () {
+            baris_produk.innerHTML = ""
+            var pilihan = select_produk.value
+            produk_pilihan = semua_produk[pilihan]
+            console.log("produk pilihan dari " + pilihan, produk_pilihan)
+            updateTampilan()
+        }
+
+        baris_produk.innerHTML = ""
+
+        // Kode selanjutnya paste di bawah sini
+
+        function updateTampilan() {
+            produk_pilihan.forEach(produk => {
+                baris_produk.innerHTML += `
+        <!--AWAL KOLOM PRODUK-->
+        <div class="col mb-4">
+            <div class="card">
+                <img src="${produk.foto}"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">${produk.nama}</h5>
+                    <div class="row hargasize my-4">
+                        <div class="col">
+                            ${produk.size}
+                        </div>
+                        <div class="col text-primary fw-bold">
+                            ${produk.harga}
+                        </div>
+                    </div>
+                    <a href="${produk.link}" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                </div>
+            </div>
+        </div>
+        <!--AKHIR KOLOM PRODUK-->`
+            })
+        }
+
+        function updateSelect() {
+            select_produk.innerHTML = '<option selected disabled>-</option>'
+            Object.keys(semua_produk).forEach(kategori => {
+                select_produk.innerHTML += '<option value="' + kategori + '">' + kategori + '</option>'
+            })
+            console.log("Fungsi update select sudah berjalan ", Object.keys(semua_produk))
+        }
+        updateSelect()
+
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi"
+        var sumber2 = "data.json"
+
+        $.getJSON(sumber2).then(database => {
+            semua_produk = database
+            updateSelect()
+        })
+
+    </script>
+</body>
+
+</html>

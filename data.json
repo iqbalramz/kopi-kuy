@@ -1,0 +1,89 @@
+{
+    "Makanan": [
+        {
+            "nama": "Rendang",
+            "foto": "https://www.astronauts.id/blog/wp-content/uploads/2023/03/Resep-Rendang-Daging-Sapi-Untuk-Lebaran-Gurih-dan-Nikmat-1024x683.jpg",
+            "harga": "Rp 25.000",
+            "size": "100 gram",
+            "link": "https://www.tokopedia.com/kopikuy/rendangenak"
+        },
+        {
+            "nama": "Nasi Goreng",
+            "foto": "https://cdn1-production-images-kly.akamaized.net/LDRjBxjUH3gyrzEAUFrCi_XisTs=/0x148:1920x1230/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3093328/original/069244600_1585909700-fried-2509089_1920.jpg",
+            "harga": "Rp 25.000",
+            "size": "100 gram",
+            "link": "https://www.tokopedia.com/kopikuy/Nasi Goreng Enak"
+        }
+    ],
+    "Minuman": [
+        {
+            "nama": "Cappuccino",
+            "foto": "images/produk/product_capuchino.jpg",
+            "harga": "Rp 35.000",
+            "size": "250 Ml",
+            "link": "https://www.tokopedia.com/kopikuy/kopi-kuy-cappuccino-250-ml"
+        },
+        {
+            "nama": "Espresso",
+            "foto": "images/produk/product_espresso.jpg",
+            "harga": "Rp 25.000",
+            "size": "150 Ml",
+            "link": "https://www.tokopedia.com/kopikuy/kopi-kuy-espresso-150-ml"
+        }
+    ],
+    "Snack": [
+        {
+            "nama": "Cendol Durian",
+            "foto": "https://awsimages.detik.net.id/community/media/visual/2022/04/10/resep-cendol-durian.jpeg?w=1024",
+            "harga": "Rp 35.000",
+            "size": "250 Ml",
+            "link": "https://www.tokopedia.com/kopikuy/kopi-kuy-cendol-durian-250-ml"
+        },
+        {
+            "nama": "Roti Bakar",
+            "foto": "https://nibble-images.b-cdn.net/nibble/original_images/roti-bakar-kemang-rotbak-kemang.jpg",
+            "harga": "Rp 35.000",
+            "size": "250 Ml",
+            "link": "https://www.tokopedia.com/kopikuy/kopi-kuy-cendol-durian-250-ml"
+        }
+    ],
+    "arabica": [
+        {
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino Arabica",
+            "size": "500 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Pahit Arabica",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Arabica",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+        }
+    ],
+    "robusta": [
+        {
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopsus Robusta",
+            "size": "100 Gram",
+            "harga": "500.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        }
+    ]
+}
