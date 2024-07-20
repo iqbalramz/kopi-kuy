@@ -10,6 +10,13 @@
         {
             "nama": "Nasi Goreng",
             "foto": "https://cdn1-production-images-kly.akamaized.net/LDRjBxjUH3gyrzEAUFrCi_XisTs=/0x148:1920x1230/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3093328/original/069244600_1585909700-fried-2509089_1920.jpg",
+            "harga": "Rp 20.000",
+            "size": "100 gram",
+            "link": "https://www.tokopedia.com/kopikuy/Nasi Goreng Enak"
+        },
+        {
+            "nama": "Nasi Goreng Gila",
+            "foto": "https://cdn1-production-images-kly.akamaized.net/LDRjBxjUH3gyrzEAUFrCi_XisTs=/0x148:1920x1230/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3093328/original/069244600_1585909700-fried-2509089_1920.jpg",
             "harga": "Rp 25.000",
             "size": "100 gram",
             "link": "https://www.tokopedia.com/kopikuy/Nasi Goreng Enak"
@@ -29,6 +36,13 @@
             "harga": "Rp 25.000",
             "size": "150 Ml",
             "link": "https://www.tokopedia.com/kopikuy/kopi-kuy-espresso-150-ml"
+        },
+        {
+            "nama": "Latte",
+            "foto": "images/produk/product_latte.jpg",
+            "harga": "Rp 25.000",
+            "size": "150 Ml",
+            "link": "https://www.tokopedia.com/kopikuy/kopi-kuy-espresso-150-ml"
         }
     ],
     "Snack": [
@@ -41,6 +55,13 @@
         },
         {
             "nama": "Roti Bakar",
+            "foto": "https://nibble-images.b-cdn.net/nibble/original_images/roti-bakar-kemang-rotbak-kemang.jpg",
+            "harga": "Rp 30.000",
+            "size": "250 Ml",
+            "link": "https://www.tokopedia.com/kopikuy/kopi-kuy-cendol-durian-250-ml"
+        },
+        {
+            "nama": "Roti Bakar Keju",
             "foto": "https://nibble-images.b-cdn.net/nibble/original_images/roti-bakar-kemang-rotbak-kemang.jpg",
             "harga": "Rp 35.000",
             "size": "250 Ml",
@@ -81,6 +102,13 @@
         {
             "foto": "images/produk/product_latte.jpg",
             "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Espresso Robusta",
             "size": "150 Gram",
             "harga": "150.000",
             "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
